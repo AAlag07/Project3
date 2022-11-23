@@ -271,3 +271,9 @@ iframe.one {
 	height: 380px;
 	width: 400px;
 }
+#map {
+		top:36.3%;
+		height: 400px;
+		width: 100%;
+		position: absolute;
+}
