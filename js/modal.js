@@ -14,3 +14,15 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
 		modal.style.display = "none";
 }
+
+function initMap () {
+		const manila = { lat: 14.559, lng: 120.984 };
+		const map = new google.maps.Map(document.getElementById("map"), {
+				zoom:5,
+				center: manila,
+		});
+		const marker = new google.maps.Marker({
+				position: manila,
+				map: map,
+		});
+}
